@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Programming Path</string>
+    <string name="introduction">Introduction</string>
+    <string name="programming_languages">Programming Languages</string>
+    <string name="obj_c"><![CDATA[<OBJ-C>]]></string>
+    <string name="swift">SWIFT</string>
+    <string name="visual_basic">Visual Basic</string>
+    <string name="c">C</string>
+</resources>

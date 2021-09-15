@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawground5"
+    tools:context=".MainActivity25">
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="93dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout10"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout10"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout10"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout10"
+        app:srcCompat="@drawable/logo50" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="456dp"
+        android:layout_height="464dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/logo17" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="76dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout7"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout7"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout7"
+        app:srcCompat="@drawable/logo43" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="260dp"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.065">
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/drawbutton9"
+            android:fontFamily="@font/dosis"
+            android:gravity="center"
+            android:onClick="bucshar2"
+            android:text="C#"
+            android:textSize="45dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="260dp"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11"
+        app:layout_constraintVertical_bias="0.125">
+
+        <Button
+
+            android:id="@+id/button20"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/drawbutton9"
+            android:fontFamily="@font/dosis"
+            android:onClick="buvb"
+            android:text="@string/visual_basic"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="260dp"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7"
+        app:layout_constraintVertical_bias="0.196">
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/drawbutton9"
+            android:fontFamily="@font/dosis"
+            android:onClick="buc"
+            android:text="@string/c"
+            android:textSize="45dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="260dp"
+        android:layout_height="125dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
+        app:layout_constraintVertical_bias="0.335">
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="220dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/drawbutton9"
+            android:fontFamily="@font/dosis"
+            android:onClick="buccc"
+            android:text="c++"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="292dp"
+        android:layout_height="70dp"
+        android:fontFamily="@font/alegreya_sans"
+        android:text="لغات البرمجة :"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="76dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout11"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout11"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout11"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout11"
+        app:srcCompat="@drawable/logo42" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="139dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout8"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout8"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout8"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout8"
+        app:srcCompat="@drawable/logo44" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-7757590907378676/3405750249"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

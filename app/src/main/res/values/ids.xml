@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView100" type="id" />
+    <item name="textView6" type="id" />
+    <item name="linearLayout11" type="id" />
+    <item name="linearLayout9" type="id" />
+    <item name="linearLayout7" type="id" />
+    <item name="linearLayout10" type="id" />
+    <item name="linearLayout8" type="id" />
+</resources>

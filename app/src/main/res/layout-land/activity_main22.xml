@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawground"
+    tools:context=".MainActivity22">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="415dp"
+        android:layout_height="340dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo17" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="216dp"
+        android:layout_height="58dp"
+        android:fontFamily="@font/dosis"
+        android:paddingLeft="20dp"
+        android:text="مسار البرمجة"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="414dp"
+        android:layout_height="321dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/drawbutton3"
+                    android:fontFamily="@font/advent_pro"
+                    android:onClick="buweba"
+                    android:text="الويب"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="68dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/drawbutton3"
+                    android:fontFamily="@font/advent_pro"
+                    android:onClick="bumaa"
+                    android:text="تطبيقات الهاتف"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="68dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icon2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/drawbutton3"
+                    android:fontFamily="@font/advent_pro"
+                    android:onClick="buwaa"
+                    android:text="تطبيقات الويندوز"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="68dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icon4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/drawbutton3"
+                    android:fontFamily="@font/advent_pro"
+                    android:onClick="buaia"
+                    android:text="الذكاء الاصطناعي"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="68dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icon3_png" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/drawbutton3"
+                    android:fontFamily="@font/advent_pro"
+                    android:onClick="buita"
+                    android:text="تكنولوجيا المعلومات"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="68dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icon5" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/drawbutton3"
+                    android:fontFamily="@font/advent_pro"
+                    android:onClick="budsa"
+                    android:text="علم البيانات"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="32dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icon6" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/drawbutton3"
+                    android:fontFamily="@font/advent_pro"
+                    android:onClick="budba"
+                    android:text="قاعده البيانات"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="68dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/icon7" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
